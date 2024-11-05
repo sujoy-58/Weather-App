@@ -1,0 +1,28 @@
+
+temp_c.innerHTML = response.current.temp_c
+temp_f.innerHTML = response.current.temp_f
+feelslike_c.innerHTML = response.current.feelslike_c
+feelslike_f.innerHTML = response.current.feelslike_f
+
+
+wind_mph.innerHTML = response.current.wind_mph
+wind_kph.innerHTML = response.current.wind_kph
+wind_degree.innerHTML = response.current.wind_degree
+wind_dir.innerHTML = response.current.wind_dir
+
+
+pressure_mb.innerHTML = response.current.pressure_mb
+humidity.innerHTML = response.current.humidity
+heatindex_c.innerHTML = response.current.heatindex_c
+uv.innerHTML = response.current.uv
+
+
+dewpoint_c.innerHTML = response.current.dewpoint_c
+gust_mph.innerHTML = response.current.gust_mph
+windchill_c.innerHTML = response.current.windchill_c
+precip_in.innerHTML = response.current.precip_in
+cloud.innerHTML = response.current.cloud
+
+
+
+
